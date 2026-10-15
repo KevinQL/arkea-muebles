@@ -370,9 +370,11 @@ const guardar = async () => {
 
             <!-- Preview: la subida prima sobre el path -->
             <div v-if="previewActiva" class="mt-3 rounded-lg border border-madera-200 p-3">
-              <img
+              <NuxtImg
                 :src="previewActiva"
                 alt="preview"
+                width="400"
+                height="200"
                 class="h-32 w-full rounded border border-madera-100 bg-white object-contain"
               />
               <div class="mt-2 flex items-center justify-between gap-2">
