@@ -1,0 +1,31 @@
+# Monorepo Arkea Muebles - exclusiones de raíz
+
+# Dependencias y artefactos (ya cubiertos por .gitignore de cada subproyecto,
+# pero se listan aquí por seguridad)
+node_modules/
+vendor/
+.nuxt/
+.output/
+dist/
+
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Subidas de imágenes (contenido del usuario)
+api-muebles/public/uploads/
+
+# Logs y temporales
+*.log
+dev.log
+Thumbs.db
+.DS_Store
+
+# Editor / herramientas
+.opencode/
+.idea/
+.vscode/
+.cursor/
+
+*.err

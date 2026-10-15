@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-madera-50: #faf6f1;
+  --color-madera-100: #f4f1ea;
+  --color-madera-200: #e8e0d4;
+  --color-madera-300: #d6c5ae;
+  --color-madera-400: #bfa285;
+  --color-madera-500: #a07050;
+  --color-madera-600: #8b5a2b;
+  --color-madera-700: #6b4423;
+  --color-madera-800: #4a2f1a;
+  --color-madera-900: #2d1c10;
+
+  --color-oro-400: #d4b579;
+  --color-oro-500: #c9a66e;
+  --color-oro-600: #b08d4f;
+
+  --font-display: Georgia, 'Times New Roman', serif;
+}
+
+body {
+  @apply bg-madera-100 text-neutral-800 antialiased;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
